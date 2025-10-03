@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Side Menu Example</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Sidebar container */
+    .sidebar {
+      height: 100vh;            /* full height */
+      width: 200px;             /* menu width */
+      background-color: #2c3e50;
+      position: fixed;          /* stays in place */
+      top: 0;
+      left: 0;
+      padding-top: 20px;
+    }
+
+    /* Sidebar buttons/links */
+    .sidebar a {
+  display: block;
+  color: white;
+  padding: 12px 16px;  /* más espacio horizontal */
+  text-decoration: none;
+  margin: 5px 0;       /* solo separación vertical */
+  border-radius: 8px;
+  transition: background-color 0.3s; /* suaviza el hover */
+}
+
+    /* Hover effect */
+    .sidebar a:hover {
+  background-color: #1abc9c;
+  transform: scale(1.00);  /* efecto sutil de zoom */
+}
+
+    /* Main content area */
+    .content {
+      margin-left: 220px; /* leave space for sidebar */
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Side menu -->
+  <div class="sidebar">
+  <a href="#">🏠 Inicio </a>
+  <a href="#">👤 Sobre mí </a>
+  <a href="#">📚 Servicios </a>        
+  <a href="#">📅 Reserva tu clase</a>
+  <a href="#">🎓 Inscribir curso</a>
+  <a href="#">💬 Opiniones</a>
+  <a href="#">📞 Contacto</a>
+  </div>
+
+  <!-- Main page content -->
+  <div class="content">
+    <h1>Welcome!</h1>
+    <p>This is the main content area. Click the menu items on the left.</p>
+  </div>
+
+</body>
+</html>
