@@ -24,5 +24,91 @@
     <p>Aquí va el contenido específico de la página.</p>
   </div>
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre mí</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Extra styling specific to this page */
+    .about-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .about-container img {
+      width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .about-text h2 {
+      margin-top: 0;
+      color: #1abc9c;
+    }
+
+    .about-text p {
+      line-height: 1.6;
+    }
+
+    .highlights {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .highlights li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <a href="index.html">🏠 Inicio</a>
+    <a href="sobre-mi.html">👤 Sobre mí</a>
+    <a href="servicios.html">📚 Servicios</a>
+    <a href="reservar.html">📅 Reserva tu clase</a>
+    <a href="cursos.html">🎓 Inscribir curso</a>
+    <a href="opiniones.html">💬 Opiniones</a>
+    <a href="contacto.html">📞 Contacto</a>
+  </div>
+
+  <!-- Main content -->
+  <div class="content">
+    <h1>Sobre mí</h1>
+    
+    <div class="about-container">
+      <!-- Profile image -->
+      <img src="images/profile.jpg" alt="Tu foto de perfil">
+
+      <!-- Text section -->
+      <div class="about-text">
+        <h2>Hola, soy Alexis 👋</h2>
+        <p>
+          Soy profesor de inglés para hablantes de español, con experiencia enseñando a estudiantes de 
+          diferentes niveles, desde principiantes hasta avanzados. Mi objetivo es ayudarte a mejorar 
+          tu inglés de manera práctica, entretenida y adaptada a tus necesidades.
+        </p>
+        
+        <h3>Mis puntos fuertes:</h3>
+        <ul class="highlights">
+          <li>✅ Clases personalizadas según tu nivel y objetivos</li>
+          <li>✅ Experiencia preparando estudiantes para exámenes Cambridge</li>
+          <li>✅ Lecciones dinámicas y enfocadas en comunicación real</li>
+          <li>✅ Flexibilidad horaria (online y presenciales)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+  
 </body>
 </html>
